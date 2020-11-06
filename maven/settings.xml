@@ -7,7 +7,7 @@
       <repositories>
         <repository>
             <id>nexus-group-repository</id>
-            <url>https://build.dtis.com/repository/maven-central/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.pom</url>
+            <url>https://build.dtis.com/repository/maven-central</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -19,7 +19,7 @@
       <pluginRepositories>
         <pluginRepository>
             <id>nexus-group-repository</id>
-            <url>https://build.dtis.com/repository/maven-central/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.pom</url>
+            <url>https://build.dtis.com/repository/maven-central</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -48,7 +48,7 @@
     <mirror>
       <id>nexus-group</id>
       <name>Nexus mirror</name>
-      <url>https://build.dtis.com/repository/maven-central/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.pom</url>
+      <url>https://build.dtis.com/repository/maven-central</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
