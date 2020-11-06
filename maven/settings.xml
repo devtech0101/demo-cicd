@@ -7,7 +7,7 @@
       <repositories>
         <repository>
             <id>nexus-group-repository</id>
-            <url>http://nexus-cicd.192.168.42.193.nip.io/nexus/content/groups/public/</url>
+            <url>https://nexus-argocd.apps.okd4.dtis.com/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -19,7 +19,7 @@
       <pluginRepositories>
         <pluginRepository>
             <id>nexus-group-repository</id>
-            <url>http://nexus-cicd.192.168.42.193.nip.io/nexus/content/groups/public/</url>
+            <url>https://nexus-argocd.apps.okd4.dtis.com/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
